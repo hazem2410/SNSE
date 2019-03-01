@@ -398,17 +398,17 @@ void Initial_Data()
     */
 
 
-	OutPut1.open("ToyTable1.txt");
-	OutPut2.open("ToyTable1.txt");
-	CVector.open("CToy1.txt");
-	ListFirms.open("ToyKJ.txt");
-	Production.open("ToyPini.txt");
-	FirmBS.open("BSToy.txt");
-	FirmBank.open("FBToy.txt");
-	NetStat.open("FirmClusters.txt");
-    Location.open("toyGeography.txt");
-	Sector.open("toySector.txt");
-	Profit.open("toyProfitToSales.txt");
+	OutPut1.open("Data/ToyTable1.txt");
+	OutPut2.open("Data/ToyTable1.txt");
+	CVector.open("Data/CToy1.txt");
+	ListFirms.open("Data/ToyKJ.txt");
+	Production.open("Data/ToyPini.txt");
+	FirmBS.open("Data/BSToy.txt");
+	FirmBank.open("Data/FBToy.txt");
+	NetStat.open("Data/FirmClusters.txt");
+    Location.open("Data/toyGeography.txt");
+	Sector.open("Data/toySector.txt");
+	Profit.open("Data/toyProfitToSales.txt");
 
 	std::string opline, cline, kjline, prodline, bsline, fbline, statline, locline, secline, profitline,taxline;
 
