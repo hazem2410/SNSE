@@ -15,3 +15,11 @@ Based on real Japanese data, two negatives shocks were simulated: the 2008 Lehma
 
 # 1. Usage details of SNSE
 
+The SNSE simulator is a ready to use code. However, the example given in this Github repo is for windows 64bit users. 
+
+* Download the release of this [link](https://github.com/hazem2410/SNSE/releases/tag/First).
+* Uncompress the file .rar
+* Open windows command line and execute ABM_Disasters.exe.
+
+The user will obtain the same results shown in "Results" directory of this repo. The simulation is based on toy data.
+You can use the model on any data; replace the toy data by yours.
