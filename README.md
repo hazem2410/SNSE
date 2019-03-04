@@ -8,7 +8,7 @@ This code simulates the propagation of negatives shocks through a supply chain n
 Moreover, the model simulates the effects of initial exoegouns negatives shocks on the supply chain, on the bank-firm credit network. The model simulates the non-performing loans and the liquidity crisis of banks following 
 negatives shocks on the supply chain.
 
-Based on real Japanese data, two negatives shocks were simulated: the 2008 Lehman brothers bankruptcy and the 2011 Great earthquake and tsunami. The model reproduces the real 1-year dynamics of the Index of Industrial Production of
+Based on real Japanese data, two negatives shocks were simulated: the 2008 Lehman brothers bankruptcy and the 2011 Great earthquake and tsunami. The model reproduces the real 1-year dynamics of the Index of Industrial Production (IIP) of
  the Japanese economy as shown in these figures from [Krichene et al. (2019)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3343949).
 
 <img src="images/Fig1.png" width = "400"> <img src="images/Fig2.png" width = "400"> 
@@ -22,4 +22,9 @@ The SNSE simulator is a ready to use code. However, the example given in this Gi
 * Open windows command line and execute ABM_Disasters.exe.
 
 The user will obtain the same results shown in "Results" directory of this repo. The simulation is based on toy data.
-You can use the model on any data; replace the toy data by yours.
+You can use the model on any data; replace the toy data by your real data.
+
+# 2. Calibration of the parameters of SNSE
+
+The parameters should reflect the properties of your economy: How firms and banks behave? In our work in [Krichene et al. (2019)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3343949) we used a Latin hypercube sampling
+to calibrate our parameters and reproduced the IIP dynamics shown in Figures 1&2. The user may define any different approach. In this section we explain the meaning and roles of each parameter in the SNSE.
