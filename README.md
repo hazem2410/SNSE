@@ -41,3 +41,25 @@ Two types of parameters are in the SNSE: behavioral parameters and simulation pa
 * NumberDamagedFirms: the number of initial damaged firms.
 
 ### Simulation parameters
+
+* t: simulation time, assumed to be one day: daily simulation.
+* disaster: if 0 no negative shock; if 1 simulation of negative shock at t = 1.
+* WithPayment: if 0, the SNSE simulates [Inoue and Todo (2018)](https://github.com/HiroyasuInoue/ProductionNetworkSimulator); if 1, the SNSE considers the bank-firm network.
+* HelpFirms: if 0, firms can get funding only as loans from banks; if 1, firms may have an exogenous funding.
+* BankRiskManager: if 0, banks supply loans to all received demand; if 1, banks monitor their risk based on the LimitSolvencyRatio parameter.
+
+# 3. Outputs of the SNSE
+
+Example of outputs are given in the Results directory of this repo.
+
+* DamagedFirms.txt: list of initially damaged firms.
+* Deposit.txt: evolution of the dynamics of additional deposits.
+* Equity.txt: evolution of total equity of firms.
+* FinalGvtSupport.txt: the amount of exogenous funding.
+* FinalLiquidity.txt: the liquidity ratio of banks.
+* FinalNPL.txt: the generated non-performing loans.
+* GDP.txt: the dynamics of the simulated VA, used as a proxy of IIP.
+
+# 4. References based on the SNSE
+
+Krichene, H., Inoue, H., Isogai, T., Chakraborty, A. A model for indirect losses of negatives shocks in production and finance, (2019). [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3343949).
