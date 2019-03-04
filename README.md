@@ -13,10 +13,10 @@ Based on real Japanese data, two negatives shocks were simulated: the 2008 Lehma
 
 <div class="row">
   <div class="column">
-    <img src="Fig1.png" style="width:100%">
+    <img src="images/Fig1.png" style="width:100%">
   </div>
   <div class="column">
-    <img src="Fig2.png" style="width:100%">
+    <img src="images/Fig2.png" style="width:100%">
   </div>
 </div>
 
