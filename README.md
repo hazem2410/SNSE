@@ -9,7 +9,7 @@ Moreover, the model simulates the effects of initial exoegouns negatives shocks 
 negatives shocks on the supply chain.
 
 Based on real Japanese data, two negatives shocks were simulated: the 2008 Lehman brothers bankruptcy and the 2011 Great earthquake and tsunami. The model reproduces the real 1-year dynamics of the Index of Industrial Production of
- the Japanese economy as shown in these figures.
+ the Japanese economy as shown in these figures from [Krichene et al. (2019)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3343949).
 
 <img src="images/Fig1.png" width = "400"> <img src="images/Fig2.png" width = "400"> 
 
