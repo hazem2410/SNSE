@@ -11,28 +11,7 @@ negatives shocks on the supply chain.
 Based on real Japanese data, two negatives shocks were simulated: the 2008 Lehman brothers bankruptcy and the 2011 Great earthquake and tsunami. The model reproduces the real 1-year dynamics of the Index of Industrial Production of
  the Japanese economy as shown in these figures.
 
-<img src="images/Fig1.png" width = "300"> <img src="images/Fig2.png" width = "300"> 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-<div class="row">
-  <div class="column">
-    <img src="images/Fig1.png" width = "300">
-  </div>
-  <div class="column">
-    <img src="images/Fig2.png" width = "300">
-  </div>
-</div>
+<img src="images/Fig1.png" width = "500"> <img src="images/Fig2.png" width = "500"> 
 
 # 1. Usage details of SNSE
 
