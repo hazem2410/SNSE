@@ -24,7 +24,20 @@ The SNSE simulator is a ready to use code. However, the example given in this Gi
 The user will obtain the same results shown in "Results" directory of this repo. The simulation is based on toy data.
 You can use the model on any data; replace the toy data by your real data.
 
-# 2. Calibration of the parameters of SNSE
+# 2. Parameters of the SNSE
 
 The parameters should reflect the properties of your economy: How firms and banks behave? In our work in [Krichene et al. (2019)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3343949) we used a Latin hypercube sampling
 to calibrate our parameters and reproduced the IIP dynamics shown in Figures 1&2. The user may define any different approach. In this section we explain the meaning and roles of each parameter in the SNSE.
+
+Two types of parameters are in the SNSE: behavioral parameters and simulation parameters. The first are used to define the strategies of agents. The latters are used to define different scenarios of the simulation.
+
+### Behavioral parameters
+
+* n: the number of days of the inventory.
+* GammaMin, GammaMax: the recovery speed of damaged firms.
+* LimitSolvencyRatio: the acceptable solvency by banks to supply loans.
+* LoanMaturity, LTLoanMaturity: maturity of short and long term loans.
+* DamageMagnitude: the magnitude of the initial negative shock to the supply chain.
+* NumberDamagedFirms: the number of initial damaged firms.
+
+### Simulation parameters
