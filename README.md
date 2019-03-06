@@ -53,8 +53,6 @@ Two types of parameters are in the SNSE: behavioral parameters and simulation pa
 Example of outputs are given in the Results directory of this repo.
 
 * DamagedFirms.txt: list of initially damaged firms.
-* Deposit.txt: evolution of the dynamics of additional deposits.
-* Equity.txt: evolution of total equity of firms.
 * FinalGvtSupport.txt: the amount of exogenous funding.
 * FinalLiquidity.txt: the liquidity ratio of banks.
 * FinalNPL.txt: the generated non-performing loans.
